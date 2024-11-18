@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 400vh;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+  
+
+header,
+main{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+
+header .logos {
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh 5vw;
+  height: 8vw;
+}
+
+header h1 {
+  margin-top: 6.3vw;
+  font-size: 160%;
+  padding: 0 5vw;
+}
+
+
+header p {
+  margin: 0;
+}
+
+main {
+  padding: 2vw;
+  columns: 2;
+  max-width: 100%;
+}
+
+.ceit{
+
+  width: 18vw;
+  height: auto;
+  margin:0;
+}
+
+.ceit img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+
+
